@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Creative - Start Bootstrap Theme</title>
+        <title>Pantuflas Ualaru</title>
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
         <!-- Custom Fonts -->
@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/animate.min.css" type="text/css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/creative.css" type="text/css">
+		<!-- Lightbox -->
+		<link href="css/lightbox.css" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
         queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file://
@@ -34,13 +36,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Pantuflas Ualaru</a>
+                    <a class="navbar-brand"><img height="20" alt="Brand" src="img\logo.jpg" class="img-circle"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="page-scroll" href="#about">Inicio</a>
+                            <a class="page-scroll" href="#inicio">Inicio</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#services">Servicios</a>
@@ -64,11 +66,11 @@
                     <hr>
                     <p>Somos fabricantes desde hace mas de 15 años, y ofrecemos los mejores productos
                         de calidad en el mercado para darte el confort que vos necestas.</p>
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                    <a href="#about" class="btn btn-danger btn-xl page-scroll">Ver Mas</a>
                 </div>
             </div>
         </header>
-        <section id="about" class="bg-primary">
+        <section id="inicio" class="bg-primary">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -95,27 +97,28 @@
                     <div class="col-lg-3 col-md-6 text-center"></div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x wow bounceIn text-primary fa-group"></i>
+                            <i class="bounceIn fa fa-4x fa-group text-danger wow"></i>
                             <h3>Venta al por mayor</h3>
                             <p class="text-muted">Informate acerca de nuestra forma de venta</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="service-box">
-                            <i class="fa fa-4x wow bounceIn text-primary fa-male" data-wow-delay=".1s"></i>
+                            <i class="bounceIn fa fa-4x fa-male text-danger wow" data-wow-delay=".1s"></i>
                             <h3>Venta al publico</h3>
                             <p class="text-muted">Ingresa a nuestro sitio de ventas</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        <!-- Galeria -->	
+		</section>
         <section class="no-padding" id="portfolio">
             <div class="container-fluid">
                 <div class="row no-gutter">
                     <div class="col-lg-4 col-sm-6">
-                        <a href="art001.html" class="portfolio-box">
-                        <img src="img\productos\26 francia.JPG" class="img-responsive" alt="">
+                        <a href="img/productos/500 animales.jpg" data-lightbox="Galeria">
+                        <img src="img/productos/500 animales.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             </div>
@@ -123,8 +126,8 @@
                     </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="art001.html" class="portfolio-box">
-                        <img src="img\productos\24fucsia.jpg" class="img-responsive" alt="">
+                        <a href="img\productos\44 turquesa.jpg" data-lightbox="Galeria">
+                        <img src="img\productos\44 turquesa.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             </div>
@@ -132,8 +135,8 @@
                     </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="art001.html" class="portfolio-box">
-                        <img src="img\productos\42.JPG" class="img-responsive" alt="">
+                        <a href="img\productos\100 dibujitos gris.jpg" data-lightbox="Galeria">
+                        <img src="img\productos\100 dibujitos gris.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             </div>
@@ -141,8 +144,8 @@
                     </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="art001.html" class="portfolio-box">
-                        <img src="img\productos\68 fucsia.JPG" class="img-responsive" alt="">
+                        <a href="img\productos\68 fucsia.jpg" data-lightbox="Galeria">
+                        <img src="img\productos\68 fucsia.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             </div>
@@ -150,8 +153,8 @@
                     </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="art001.html" class="portfolio-box">
-                        <img src="img\productos\52 turquesa.JPG" class="img-responsive" alt="">
+                        <a href="img\productos\54 fucsia.jpg" data-lightbox="Galeria">
+                        <img src="img\productos\54 fucsia.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             </div>
@@ -159,8 +162,8 @@
                     </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="art001.html" class="portfolio-box">
-                        <img src="img\productos\34gris.jpg" class="img-responsive" alt="">
+                        <a href="img\productos\302 mariposa rojo.jpg" data-lightbox="Galeria">
+                        <img src="img\productos\302 mariposa rojo.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                             </div>
@@ -174,7 +177,7 @@
             <div class="container text-center">
                 <div class="call-to-action">
                     <h2>Mira el catalogo completo!</h2>
-                    <a href="#" class="btn btn-default btn-xl wow tada">Catalogo</a>
+                    <a href="catalogo.html" class="btn btn-danger btn-xl tada wow">Catalogo</a>
                 </div>
             </div>
         </aside>
@@ -192,19 +195,20 @@
                     </div>
                     <div class="col-lg-4 text-center">
                         <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p>
+                        <p class="text-danger">
                             <a href="mailto:your-email@your-domain.com">info@pantuflasualaru.com.ar</a>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <footer class="section section-primary">
+        <footer class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1>Buscanos en todas las redes!</h1>
-                        <p></p>
+                        <h1 class="text-danger">Seguinos en todas las redes</h1>
+                        <p>Enterate de todos nuestros productos y novedades tambien por las redes
+                            sociales!</p>
                     </div>
                     <div class="col-sm-6">
                         <p class="text-info text-right">
@@ -221,9 +225,9 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 hidden-xs text-right">
-                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-danger"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-danger"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-facebook fa-fw text-danger"></i></a>
                             </div>
                         </div>
                     </div>
@@ -240,6 +244,8 @@
         <script src="js/wow.min.js"></script>
         <!-- Custom Theme JavaScript -->
         <script src="js/creative.js"></script>
+		<!-- Lightbox -->
+		<script src="js/lightbox.js"></script>
     
 
 </body></html>
